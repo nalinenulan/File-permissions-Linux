@@ -11,7 +11,7 @@ This project explores Linux permissions. I go through the initial permissions an
 
 <h2>Environments Used </h2>
 
-- <b>Linux</b> (21H2)
+- <b>Linux</b> 
 
 <h2>Program walk-through:</h2>
 
@@ -41,16 +41,13 @@ The research team has archived .project_x.txt, so it’s a hidden file. This fil
 <img src="https://i.imgur.com/G8qGQqV.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Change directory permissions:  <br/>
+The files and directories in the projects directory belong to the researcher2 user. Only researcher2 should be allowed to access the drafts directory and its contents. Below you can see the code used to remove access from drafts to anyone but user. <br/>
+<img src="https://i.imgur.com/XQFzOno.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Summary:  <br/>
+Being able to manage permission in Linux is important for security. As seen above, people can have access to documents they should not, which compromises document integrity.  By keeping up to date with permission changes, the company can better secure its information and stakeholders.
 </p>
 
 <!--
